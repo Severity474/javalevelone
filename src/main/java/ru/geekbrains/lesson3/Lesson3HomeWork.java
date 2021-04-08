@@ -11,8 +11,10 @@ public class Lesson3HomeWork {
         if (sum >= 10 && sum <= 20) {
             return true;
         } else {
-            return false;}
+            return false;
+        }
     }
+
     static void doTask2(int a) {
         if (a > 0) {
             System.out.println("положительное");
@@ -24,19 +26,20 @@ public class Lesson3HomeWork {
     }
 
     static boolean doTask3(int a) {
-        if ( a<0 )
-         { return true;
+        if (a < 0) {
+            return true;
         } else {
-            return false;}
+            return false;
+        }
 
 
     }
 
     static void doTask4(int a, String b) {
         int i;
-        for (i=0;i<a;i++){
+        for (i = 0; i < a; i++) {
             System.out.println(b);
         }
     }
 
-    }
+}
